@@ -1,0 +1,983 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Channel LicenseClient-raypo doesn't exist
+[Licensing::Module] Successfully launched the LicensingClient (PId: 43964)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-raypo" at "2026-11-11T01:14:07.6909442Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 43964, path: "C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.16.2+bdef8f5
+  Session Id:              aa75aecc5801439bb2e4dfaee852ee66
+  Correlation Id:          01c1b8f18878c5707ec90719515ff97d
+  External correlation Id: 8868392608893909562
+  Machine Id:              /WdO11KSIueHHvfH99f8OIJq5P4=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-raypo" (connect: 0.57s, validation: 0.04s, handshake: 0.03s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-raypo-notifications" at "2026-11-11T01:14:07.7604592Z"
+[Licensing::Module] Connected to LicensingClient (PId: 43964, launch time: 0.00, total connection time: 0.63s)
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Error: Code 500 while processing request (status: Unable to update licenses. Errors: No ULF license found.,Token not found in cache)
+[Licensing::Client] Error: Code 500 while updating license in client (status: Unable to update licenses. Errors: No ULF license found.,Token not found in cache)
+Built from '2022.3/respin/2022.3.62f2-4af31df585-v2' branch; Version is '2022.3.62f3 (96770f904ca7) revision 9860879'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26300) 64bit Core' Language: 'en' Physical Memory: 15475 MB
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Serial number assigned to: "2476066705133-UnityPersXXXX"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+[Licensing::Client] Successfully resolved entitlement details
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Unity.exe
+-batchmode
+-quit
+-projectPath
+C:\Users\raypo\Downloads\Compressed\CasualtiesUnknownV5.1Demo\CasualtiesUnknownDemo\RecoveredUnityProject
+-executeMethod
+BuildRecoveredGame.BuildWebGL
+-logFile
+C:\Users\raypo\Downloads\Compressed\CasualtiesUnknownV5.1Demo\CasualtiesUnknownDemo\RecoveredUnityProject\Build\WebGL-build.log
+Successfully changed project path to: C:\Users\raypo\Downloads\Compressed\CasualtiesUnknownV5.1Demo\CasualtiesUnknownDemo\RecoveredUnityProject
+C:/Users/raypo/Downloads/Compressed/CasualtiesUnknownV5.1Demo/CasualtiesUnknownDemo/RecoveredUnityProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [36500]  Target information:
+
+Player connection [36500]  * "[IP] 192.168.1.210 [Port] 55504 [Flags] 2 [Guid] 3848403731 [EditorId] 3848403731 [Version] 1048832 [Id] WindowsEditor(7,PEter) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [36500] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [36500] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[Package Manager] UpmClient::Connect -- Connected to IPC stream "Upm-40280" after 0.2 seconds.
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 38 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.toolchain.win-x86_64-linux-x86_64@2.0.11 (location: C:\Users\raypo\Downloads\Compressed\CasualtiesUnknownV5.1Demo\CasualtiesUnknownDemo\RecoveredUnityProject\Library\PackageCache\com.unity.toolchain.win-x86_64-linux-x86_64@2.0.11)
+    com.unity.sysroot@2.0.10 (location: C:\Users\raypo\Downloads\Compressed\CasualtiesUnknownV5.1Demo\CasualtiesUnknownDemo\RecoveredUnityProject\Library\PackageCache\com.unity.sysroot@2.0.10)
+    com.unity.sysroot.linux-x86_64@2.0.9 (location: C:\Users\raypo\Downloads\Compressed\CasualtiesUnknownV5.1Demo\CasualtiesUnknownDemo\RecoveredUnityProject\Library\PackageCache\com.unity.sysroot.linux-x86_64@2.0.9)
+  Built-in packages:
+    com.unity.modules.ai@1.0.0 (location: C:\Users\raypo\Downloads\Compressed\CasualtiesUnknownV5.1Demo\CasualtiesUnknownDemo\RecoveredUnityProject\Library\PackageCache\com.unity.modules.ai@1.0.0)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\raypo\Downloads\Compressed\CasualtiesUnknownV5.1Demo\CasualtiesUnknownDemo\RecoveredUnityProject\Library\PackageCache\com.unity.modules.androidjni@1.0.0)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\raypo\Downloads\Compressed\CasualtiesUnknownV5.1Demo\CasualtiesUnknownDemo\RecoveredUnityProject\Library\PackageCache\com.unity.modules.animation@1.0.0)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\raypo\Downloads\Compressed\CasualtiesUnknownV5.1Demo\CasualtiesUnknownDemo\RecoveredUnityProject\Library\PackageCache\com.unity.modules.assetbundle@1.0.0)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\raypo\Downloads\Compressed\CasualtiesUnknownV5.1Demo\CasualtiesUnknownDemo\RecoveredUnityProject\Library\PackageCache\com.unity.modules.audio@1.0.0)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\raypo\Downloads\Compressed\CasualtiesUnknownV5.1Demo\CasualtiesUnknownDemo\RecoveredUnityProject\Library\PackageCache\com.unity.modules.cloth@1.0.0)
+    com.unity.modules.director@1.0.0 (location: C:\Users\raypo\Downloads\Compressed\CasualtiesUnknownV5.1Demo\CasualtiesUnknownDemo\RecoveredUnityProject\Library\PackageCache\com.unity.modules.director@1.0.0)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\raypo\Downloads\Compressed\CasualtiesUnknownV5.1Demo\CasualtiesUnknownDemo\RecoveredUnityProject\Library\PackageCache\com.unity.modules.imageconversion@1.0.0)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\raypo\Downloads\Compressed\CasualtiesUnknownV5.1Demo\CasualtiesUnknownDemo\RecoveredUnityProject\Library\PackageCache\com.unity.modules.imgui@1.0.0)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\raypo\Downloads\Compressed\CasualtiesUnknownV5.1Demo\CasualtiesUnknownDemo\RecoveredUnityProject\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\raypo\Downloads\Compressed\CasualtiesUnknownV5.1Demo\CasualtiesUnknownDemo\RecoveredUnityProject\Library\PackageCache\com.unity.modules.particlesystem@1.0.0)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\raypo\Downloads\Compressed\CasualtiesUnknownV5.1Demo\CasualtiesUnknownDemo\RecoveredUnityProject\Library\PackageCache\com.unity.modules.physics@1.0.0)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\raypo\Downloads\Compressed\CasualtiesUnknownV5.1Demo\CasualtiesUnknownDemo\RecoveredUnityProject\Library\PackageCache\com.unity.modules.physics2d@1.0.0)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\raypo\Downloads\Compressed\CasualtiesUnknownV5.1Demo\CasualtiesUnknownDemo\RecoveredUnityProject\Library\PackageCache\com.unity.modules.screencapture@1.0.0)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\raypo\Downloads\Compressed\CasualtiesUnknownV5.1Demo\CasualtiesUnknownDemo\RecoveredUnityProject\Library\PackageCache\com.unity.modules.terrain@1.0.0)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\raypo\Downloads\Compressed\CasualtiesUnknownV5.1Demo\CasualtiesUnknownDemo\RecoveredUnityProject\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\raypo\Downloads\Compressed\CasualtiesUnknownV5.1Demo\CasualtiesUnknownDemo\RecoveredUnityProject\Library\PackageCache\com.unity.modules.tilemap@1.0.0)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\raypo\Downloads\Compressed\CasualtiesUnknownV5.1Demo\CasualtiesUnknownDemo\RecoveredUnityProject\Library\PackageCache\com.unity.modules.ui@1.0.0)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\raypo\Downloads\Compressed\CasualtiesUnknownV5.1Demo\CasualtiesUnknownDemo\RecoveredUnityProject\Library\PackageCache\com.unity.modules.uielements@1.0.0)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\raypo\Downloads\Compressed\CasualtiesUnknownV5.1Demo\CasualtiesUnknownDemo\RecoveredUnityProject\Library\PackageCache\com.unity.modules.umbra@1.0.0)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\raypo\Downloads\Compressed\CasualtiesUnknownV5.1Demo\CasualtiesUnknownDemo\RecoveredUnityProject\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\raypo\Downloads\Compressed\CasualtiesUnknownV5.1Demo\CasualtiesUnknownDemo\RecoveredUnityProject\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\raypo\Downloads\Compressed\CasualtiesUnknownV5.1Demo\CasualtiesUnknownDemo\RecoveredUnityProject\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\raypo\Downloads\Compressed\CasualtiesUnknownV5.1Demo\CasualtiesUnknownDemo\RecoveredUnityProject\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\raypo\Downloads\Compressed\CasualtiesUnknownV5.1Demo\CasualtiesUnknownDemo\RecoveredUnityProject\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\raypo\Downloads\Compressed\CasualtiesUnknownV5.1Demo\CasualtiesUnknownDemo\RecoveredUnityProject\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\raypo\Downloads\Compressed\CasualtiesUnknownV5.1Demo\CasualtiesUnknownDemo\RecoveredUnityProject\Library\PackageCache\com.unity.modules.vehicles@1.0.0)
+    com.unity.modules.video@1.0.0 (location: C:\Users\raypo\Downloads\Compressed\CasualtiesUnknownV5.1Demo\CasualtiesUnknownDemo\RecoveredUnityProject\Library\PackageCache\com.unity.modules.video@1.0.0)
+    com.unity.modules.vr@1.0.0 (location: C:\Users\raypo\Downloads\Compressed\CasualtiesUnknownV5.1Demo\CasualtiesUnknownDemo\RecoveredUnityProject\Library\PackageCache\com.unity.modules.vr@1.0.0)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\raypo\Downloads\Compressed\CasualtiesUnknownV5.1Demo\CasualtiesUnknownDemo\RecoveredUnityProject\Library\PackageCache\com.unity.modules.wind@1.0.0)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\raypo\Downloads\Compressed\CasualtiesUnknownV5.1Demo\CasualtiesUnknownDemo\RecoveredUnityProject\Library\PackageCache\com.unity.modules.xr@1.0.0)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\raypo\Downloads\Compressed\CasualtiesUnknownV5.1Demo\CasualtiesUnknownDemo\RecoveredUnityProject\Library\PackageCache\com.unity.modules.subsystems@1.0.0)
+  Embedded packages:
+    com.unity.render-pipelines.core@file:C:\Users\raypo\Downloads\Compressed\CasualtiesUnknownV5.1Demo\CasualtiesUnknownDemo\RecoveredUnityProject\Packages\com.unity.render-pipelines.core (location: C:\Users\raypo\Downloads\Compressed\CasualtiesUnknownV5.1Demo\CasualtiesUnknownDemo\RecoveredUnityProject\Packages\com.unity.render-pipelines.core)
+    com.unity.render-pipelines.universal@file:C:\Users\raypo\Downloads\Compressed\CasualtiesUnknownV5.1Demo\CasualtiesUnknownDemo\RecoveredUnityProject\Packages\com.unity.render-pipelines.universal (location: C:\Users\raypo\Downloads\Compressed\CasualtiesUnknownV5.1Demo\CasualtiesUnknownDemo\RecoveredUnityProject\Packages\com.unity.render-pipelines.universal)
+    com.unity.render-pipelines.universal-config@file:C:\Users\raypo\Downloads\Compressed\CasualtiesUnknownV5.1Demo\CasualtiesUnknownDemo\RecoveredUnityProject\Packages\com.unity.render-pipelines.universal-config (location: C:\Users\raypo\Downloads\Compressed\CasualtiesUnknownV5.1Demo\CasualtiesUnknownDemo\RecoveredUnityProject\Packages\com.unity.render-pipelines.universal-config)
+[Subsystems] No new subsystems found in resolved package list.
+Package Manager log level set to [2]
+[Package Manager] Done registering packages in 0.05 seconds
+Refreshing native plugins compatible for Editor in 12.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.62f3 (96770f904ca7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/raypo/Downloads/Compressed/CasualtiesUnknownV5.1Demo/CasualtiesUnknownDemo/RecoveredUnityProject/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 5060 Ti (ID=0x2d04)
+    Vendor:   NVIDIA
+    VRAM:     7891 MB
+    Driver:   32.0.15.9186
+[Licensing::Client] Successfully resolved entitlement details
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56280
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+ImportWorker Server TCP listen port: 0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.037011 seconds.
+- Loaded All Assemblies, in  0.240 seconds
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 195 ms
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.360 seconds
+Domain Reload Profiling: 598ms
+	BeginReloadAssembly (62ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (82ms)
+		LoadAssemblies (62ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (79ms)
+			TypeCache.Refresh (78ms)
+				TypeCache.ScanAssembly (70ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (360ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (338ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (261ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (52ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/HDROutputUtils.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/ColorSpaceUtils.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/CameraCaptureBridge.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/CoreRenderPipelinePreferences.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/MaterialQuality.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/TextureCurve.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/MeshGizmo.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/HashFNV1A32.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/ColorUtils.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/ResourceReloader.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/FSRUtils.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/ArrayExtensions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/BitArray.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/XRUtils.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/HaltonSequence.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/DelegateUtility.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/TileLayoutUtils.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/CoreMatrixUtils.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/CoreUtils.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/Blitter.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/SceneRenderPipeline.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/BatchRendererGroupGlobals.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/HableCurve.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/HDROutputUtils.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/ColorSpaceUtils.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/CameraCaptureBridge.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/CoreRenderPipelinePreferences.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/MaterialQuality.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/TextureCurve.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/MeshGizmo.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/HashFNV1A32.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/ColorUtils.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/ResourceReloader.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/FSRUtils.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/ArrayExtensions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/BitArray.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/XRUtils.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/HaltonSequence.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/DelegateUtility.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/TileLayoutUtils.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/CoreMatrixUtils.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/CoreUtils.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/Blitter.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/SceneRenderPipeline.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/BatchRendererGroupGlobals.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/HableCurve.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+[ScriptCompilation] Requested script compilation because: Assetdatabase observed changes in script compilation related files
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:80
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: C:\Users\raypo\Downloads\Compressed\CasualtiesUnknownV5.1Demo\CasualtiesUnknownDemo\RecoveredUnityProject\
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc - - 200 - application/grpc 23.9273ms
+Starting: C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Data\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/2000b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/raypo/Downloads/Compressed/CasualtiesUnknownV5.1Demo/CasualtiesUnknownDemo/RecoveredUnityProject
+DisplayProgressbar: Compiling Scripts
+ExitCode: 0 Duration: 0s230ms
+[193/196    0s] Csc Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+[194/196    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+[195/196    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+*** Tundra build success (0.21 seconds), 3 items updated, 196 evaluated
+AssetDatabase: script compilation time: 0.540967s
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/HDROutputUtils.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/ColorSpaceUtils.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/CameraCaptureBridge.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/CoreRenderPipelinePreferences.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/MaterialQuality.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/TextureCurve.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/MeshGizmo.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/HashFNV1A32.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/ColorUtils.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/ResourceReloader.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/FSRUtils.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/ArrayExtensions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/BitArray.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/XRUtils.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/HaltonSequence.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/DelegateUtility.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/TileLayoutUtils.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/CoreMatrixUtils.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/CoreUtils.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/Blitter.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/SceneRenderPipeline.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/BatchRendererGroupGlobals.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/HableCurve.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Begin MonoManager ReloadAssembly
+Total cache size 872260
+Total cache size after purge 872260
+- Loaded All Assemblies, in  0.357 seconds
+Refreshing native plugins compatible for Editor in 3.89 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Start importing Assets/Editor/BuildRecoveredGame.cs using Guid(174ad74515c218744ad474989289acdc) Importer(-1,00000000000000000000000000000000) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd9ef4af7d10ecd83c166ed284c7711eb') in 0.009562 seconds
+Refreshing native plugins compatible for Editor in 4.04 ms, found 0 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/HDROutputUtils.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/ColorSpaceUtils.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/CameraCaptureBridge.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/CoreRenderPipelinePreferences.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/MaterialQuality.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/TextureCurve.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/MeshGizmo.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/HashFNV1A32.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/ColorUtils.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/ResourceReloader.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/FSRUtils.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/ArrayExtensions.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/BitArray.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/XRUtils.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/HaltonSequence.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/DelegateUtility.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/TileLayoutUtils.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/CoreMatrixUtils.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/CoreUtils.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/Blitter.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/SceneRenderPipeline.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/BatchRendererGroupGlobals.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.render-pipelines.core/Runtime/Utilities/HableCurve.cs' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.264 seconds
+Domain Reload Profiling: 619ms
+	BeginReloadAssembly (86ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (220ms)
+		LoadAssemblies (213ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (52ms)
+			TypeCache.Refresh (43ms)
+				TypeCache.ScanAssembly (34ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (264ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (122ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (1ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (22ms)
+			ProcessInitializeOnLoadAttributes (60ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 5.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=909e63934184daa428386c4952494558): Total: 1.507 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=1 ms, native=277 ms
+		Asset DB Callback time: managed=23 ms, native=10 ms
+		Scripting: domain reloads=1, domain reload time=643 ms, compile time=542 ms, other=8 ms
+		Project Asset Count: scripts=451, non-scripts=4004
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeBeforeRefreshCallbacks: 1.131ms
+	ApplyChangesToAssetFolders: 0.036ms
+	Scan: 19.158ms
+	OnSourceAssetsModified: 1.358ms
+	GetAllGuidsForCategorization: 0.324ms
+	CategorizeAssets: 29.338ms
+	ImportOutOfDateAssets: 287.342ms (-271.357ms without children)
+		ImportManagerImport: 13.979ms (3.215ms without children)
+			ImportInProcess: 10.743ms
+			UpdateCategorizedAssets: 0.021ms
+		CompileScripts: 541.991ms
+		ReloadNativeAssets: 0.010ms
+		UnloadImportedAssets: 1.758ms
+		ReloadImportedAssets: 0.210ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.297ms
+		InitializingProgressBar: 0.005ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.000ms
+		OnDemandSchedulerStart: 0.449ms
+	PostProcessAllAssets: 24.201ms
+	Hotreload: 7.334ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.001ms
+	UnloadStreamsBegin: 0.241ms
+	PersistCurrentRevisions: 0.134ms
+	UnloadStreamsEnd: 0.003ms
+	GenerateScriptTypeHashes: 0.994ms
+	Untracked: 1136.461ms
+Application.AssetDatabase Initial Refresh End
+Plugin 'Assets/Plugins/Unity.RenderPipelines.Core.ShaderLibrary.dll' has the same filename as Assembly Definition File 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Unity.RenderPipelines.Core.ShaderLibrary.asmdef'. Rename the assemblies to avoid hard to diagnose issues and crashes.
+Plugin 'Assets/Plugins/Unity.RenderPipelines.Universal.Config.Runtime.dll' has the same filename as Assembly Definition File 'Packages/com.unity.render-pipelines.universal-config/Runtime/Unity.RenderPipelines.Universal.Config.Runtime.asmdef'. Rename the assemblies to avoid hard to diagnose issues and crashes.
+Plugin 'Assets/Plugins/Unity.RenderPipeline.Universal.ShaderLibrary.dll' has the same filename as Assembly Definition File 'Packages/com.unity.render-pipelines.universal/ShaderLibrary/Unity.RenderPipelines.Universal.ShaderLibrary.asmdef'. Rename the assemblies to avoid hard to diagnose issues and crashes.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Scanning for USB devices : 74.013ms
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-CasualtiesUnknown
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ProgressiveSceneManager::Cancel()
+Unloading 30 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (1.2 MB). Loaded Objects now: 1143.
+Memory consumption went from 105.5 MB to 104.2 MB.
+Total: 4.010600 ms (FindLiveObjects: 0.069800 ms CreateObjectMapping: 0.009100 ms MarkObjects: 3.440700 ms  DeleteObjects: 0.490100 ms)
+
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc - - 200 - application/grpc 1.1183ms
+Starting: C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Data\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/2000b0aESkipCompile.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssembliesAndTypeDB
+WorkingDir: C:/Users/raypo/Downloads/Compressed/CasualtiesUnknownV5.1Demo/CasualtiesUnknownDemo/RecoveredUnityProject
+ExitCode: 0 Duration: 0s77ms
+*** Tundra build success (0.05 seconds), 0 items updated, 3 evaluated
+Asset Pipeline Refresh (id=1d54dcfe36283b5488ff0c58dcfe8467): Total: 0.007 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+[ScriptCompilation] Requested script compilation because: Recompiling scripts for player build.
+BuildPlayer: start building target 20
+Total cache size 872260
+Total cache size after purge 872260
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc - - 200 - application/grpc 0.4501ms
+Starting: C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Data\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/2000b0aP.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssembliesAndTypeDB
+WorkingDir: C:/Users/raypo/Downloads/Compressed/CasualtiesUnknownV5.1Demo/CasualtiesUnknownDemo/RecoveredUnityProject
+ExitCode: 0 Duration: 0s150ms
+[121/131    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll
+[122/131    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Universal.Config.Runtime.dll
+[123/131    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.pdb
+[124/131    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll
+[125/131    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Universal.Config.Runtime.pdb
+[126/131    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.pdb
+[127/131    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.pdb
+[128/131    0s] CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll
+*** Tundra build success (0.13 seconds), 8 items updated, 131 evaluated
+Total cache size 872260
+Total cache size after purge 872260
+Not rebuilding Data files -- no changes
+Asset Pipeline Refresh (id=d7e92501dad96a74283367c6c404d17a): Total: 0.018 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+
+
+Mono dependencies included in the build
+Dependency assembly - System.ServiceModel.Security.dll
+Dependency assembly - System.IdentityModel.dll
+Dependency assembly - System.Threading.Thread.dll
+Dependency assembly - System.IO.Compression.dll
+Dependency assembly - System.Reflection.Context.dll
+Dependency assembly - Unity.TextMeshPro.dll
+Dependency assembly - Microsoft.Win32.Registry.dll
+Dependency assembly - System.Reflection.Extensions.dll
+Dependency assembly - System.Configuration.dll
+Dependency assembly - System.Security.SecureString.dll
+Dependency assembly - Unity.MemoryProfiler.dll
+Dependency assembly - System.Runtime.Serialization.Json.dll
+Dependency assembly - System.Data.Entity.dll
+Dependency assembly - System.Console.dll
+Dependency assembly - System.Web.RegularExpressions.dll
+Dependency assembly - System.IO.FileSystem.Watcher.dll
+Dependency assembly - System.Text.Encoding.CodePages.dll
+Dependency assembly - Unity.RenderPipelines.Core.ShaderLibrary.dll
+Dependency assembly - Unity.InternalAPIEngineBridge.001.dll
+Dependency assembly - System.Diagnostics.Contracts.dll
+Dependency assembly - Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Dependency assembly - Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Dependency assembly - System.Diagnostics.TextWriterTraceListener.dll
+Dependency assembly - System.IO.FileSystem.AccessControl.dll
+Dependency assembly - System.Net.NameResolution.dll
+Dependency assembly - System.DirectoryServices.Protocols.dll
+Dependency assembly - System.Linq.Expressions.dll
+Dependency assembly - System.Net.NetworkInformation.dll
+Dependency assembly - Microsoft.Win32.Primitives.dll
+Dependency assembly - System.IO.Pipes.dll
+Dependency assembly - System.Xml.ReaderWriter.dll
+Dependency assembly - System.Net.Cache.dll
+Dependency assembly - Unity.Burst.dll
+Dependency assembly - System.Runtime.Loader.dll
+Dependency assembly - System.Threading.Timer.dll
+Dependency assembly - System.Threading.Overlapped.dll
+Dependency assembly - System.Globalization.Calendars.dll
+Dependency assembly - System.Collections.Specialized.dll
+Dependency assembly - System.ServiceModel.NetTcp.dll
+Dependency assembly - System.Security.Cryptography.OpenSsl.dll
+Dependency assembly - Microsoft.CSharp.dll
+Dependency assembly - System.Configuration.Install.dll
+Dependency assembly - Unity.Burst.Unsafe.dll
+Dependency assembly - System.Net.WebSockets.Client.dll
+Dependency assembly - System.Dynamic.Runtime.dll
+Dependency assembly - System.Linq.Parallel.dll
+Dependency assembly - System.Memory.dll
+Dependency assembly - System.Web.Services.dll
+Dependency assembly - System.Linq.dll
+Dependency assembly - Unity.2D.Common.Runtime.dll
+Dependency assembly - System.Security.Cryptography.Algorithms.dll
+Dependency assembly - Mono.Data.Tds.dll
+Dependency assembly - System.Threading.dll
+Dependency assembly - Mono.Data.Sqlite.dll
+Dependency assembly - System.Data.SqlClient.dll
+Dependency assembly - System.Drawing.Primitives.dll
+Dependency assembly - System.Net.dll
+Dependency assembly - System.Resources.ResourceManager.dll
+Dependency assembly - System.Reflection.dll
+Dependency assembly - System.Runtime.Serialization.Formatters.dll
+Dependency assembly - System.IO.MemoryMappedFiles.dll
+Dependency assembly - System.ServiceModel.Web.dll
+Dependency assembly - System.Runtime.Numerics.dll
+Dependency assembly - System.ServiceProcess.dll
+Dependency assembly - System.Web.ApplicationServices.dll
+Dependency assembly - System.Net.Requests.dll
+Dependency assembly - Unity.Collections.dll
+Dependency assembly - System.Runtime.CompilerServices.Unsafe.dll
+Dependency assembly - System.Net.HttpListener.dll
+Dependency assembly - System.Net.Mail.dll
+Dependency assembly - System.Runtime.Serialization.Xml.dll
+Dependency assembly - Assembly-CSharp.dll
+Dependency assembly - Unity.RenderPipelines.Core.Runtime.dll
+Dependency assembly - System.DirectoryServices.dll
+Dependency assembly - System.AppContext.dll
+Dependency assembly - System.Net.Http.WebRequest.dll
+Dependency assembly - Unity.RenderPipelines.Universal.Config.Runtime.dll
+Dependency assembly - System.Buffers.dll
+Dependency assembly - System.Resources.Reader.dll
+Dependency assembly - System.ComponentModel.Composition.dll
+Dependency assembly - System.Diagnostics.Tools.dll
+Dependency assembly - Unity.VisualScripting.Antlr3.Runtime.dll
+Dependency assembly - System.Core.dll
+Dependency assembly - System.Messaging.dll
+Dependency assembly - System.ServiceModel.Activation.dll
+Dependency assembly - System.Runtime.Serialization.Formatters.Soap.dll
+Dependency assembly - System.Threading.AccessControl.dll
+Dependency assembly - Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Dependency assembly - System.Security.Cryptography.Csp.dll
+Dependency assembly - System.Security.Cryptography.Cng.dll
+Dependency assembly - System.Xml.XPath.XmlDocument.dll
+Dependency assembly - System.ComponentModel.DataAnnotations.dll
+Dependency assembly - System.Reflection.Primitives.dll
+Dependency assembly - System.Collections.NonGeneric.dll
+Dependency assembly - Accessibility.dll
+Dependency assembly - System.Net.Ping.dll
+Dependency assembly - System.Web.Extensions.dll
+Dependency assembly - System.Security.Cryptography.Encryption.dll
+Dependency assembly - System.ServiceModel.Duplex.dll
+Dependency assembly - System.Security.Cryptography.Encryption.ECDsa.dll
+Dependency assembly - System.Xaml.dll
+Dependency assembly - System.Data.Services.Client.dll
+Dependency assembly - System.Linq.Queryable.dll
+Dependency assembly - System.ServiceModel.Routing.dll
+Dependency assembly - Unity.RenderPipelines.Universal.2D.Internal.dll
+Dependency assembly - System.IO.UnmanagedMemoryStream.dll
+Dependency assembly - System.Text.Encoding.Extensions.dll
+Dependency assembly - System.Security.AccessControl.dll
+Dependency assembly - System.Windows.Forms.DataVisualization.dll
+Dependency assembly - System.Net.WebHeaderCollection.dll
+Dependency assembly - System.Reflection.Emit.ILGeneration.dll
+Dependency assembly - System.Security.Principal.dll
+Dependency assembly - System.Numerics.dll
+Dependency assembly - System.Net.WebSockets.dll
+Dependency assembly - System.Runtime.Extensions.dll
+Dependency assembly - System.Runtime.CompilerServices.VisualC.dll
+Dependency assembly - System.Security.Cryptography.Encoding.dll
+Dependency assembly - System.ServiceModel.Discovery.dll
+Dependency assembly - System.Management.dll
+Dependency assembly - System.Transactions.dll
+Dependency assembly - System.Security.Cryptography.ProtectedData.dll
+Dependency assembly - System.Resources.Writer.dll
+Dependency assembly - System.Xml.XDocument.dll
+Dependency assembly - Microsoft.Win32.Registry.AccessControl.dll
+Dependency assembly - System.Drawing.dll
+Dependency assembly - System.Data.DataSetExtensions.dll
+Dependency assembly - System.ServiceModel.Primitives.dll
+Dependency assembly - System.ValueTuple.dll
+Dependency assembly - System.EnterpriseServices.dll
+Dependency assembly - System.Runtime.Serialization.dll
+Dependency assembly - System.Runtime.Serialization.Primitives.dll
+Dependency assembly - System.Security.Cryptography.Hashing.dll
+Dependency assembly - System.Runtime.InteropServices.WindowsRuntime.dll
+Dependency assembly - mscorlib.dll
+Dependency assembly - System.Resources.ReaderWriter.dll
+Dependency assembly - System.Diagnostics.TraceSource.dll
+Dependency assembly - System.Runtime.Remoting.dll
+Dependency assembly - System.Data.dll
+Dependency assembly - System.Net.Sockets.dll
+Dependency assembly - Unity.2D.SpriteShape.Runtime.dll
+Dependency assembly - System.ComponentModel.dll
+Dependency assembly - System.Data.Services.dll
+Dependency assembly - System.Collections.Concurrent.dll
+Dependency assembly - System.Diagnostics.Process.dll
+Dependency assembly - System.Web.DynamicData.dll
+Dependency assembly - System.Xml.dll
+Dependency assembly - System.Runtime.InteropServices.RuntimeInformation.dll
+Dependency assembly - System.Security.Cryptography.X509Certificates.dll
+Dependency assembly - System.Threading.Tasks.dll
+Dependency assembly - System.IO.FileSystem.Primitives.dll
+Dependency assembly - System.Runtime.Handles.dll
+Dependency assembly - netstandard.dll
+Dependency assembly - System.IO.Compression.FileSystem.dll
+Dependency assembly - System.Security.Principal.Windows.dll
+Dependency assembly - System.Reflection.DispatchProxy.dll
+Dependency assembly - System.ServiceModel.Internals.dll
+Dependency assembly - System.Xml.Xsl.Primitives.dll
+Dependency assembly - System.Security.Cryptography.Encryption.ECDiffieHellman.dll
+Dependency assembly - System.Text.Encoding.dll
+Dependency assembly - System.Net.Primitives.dll
+Dependency assembly - System.Web.Extensions.Design.dll
+Dependency assembly - System.Diagnostics.StackTrace.dll
+Dependency assembly - System.IO.IsolatedStorage.dll
+Dependency assembly - System.Diagnostics.TraceEvent.dll
+Dependency assembly - System.Threading.Tasks.Extensions.dll
+Dependency assembly - System.Xml.XPath.dll
+Dependency assembly - System.IO.dll
+Dependency assembly - Unity.Collections.LowLevel.ILSupport.dll
+Dependency assembly - System.Diagnostics.Debug.dll
+Dependency assembly - System.Net.Utilities.dll
+Dependency assembly - System.Runtime.dll
+Dependency assembly - System.ObjectModel.dll
+Dependency assembly - System.Security.Cryptography.RandomNumberGenerator.dll
+Dependency assembly - System.Security.Cryptography.Encryption.Aes.dll
+Dependency assembly - Unity.2D.Animation.Runtime.dll
+Dependency assembly - System.Data.Linq.dll
+Dependency assembly - System.Runtime.Caching.dll
+Dependency assembly - System.Diagnostics.Tracing.dll
+Dependency assembly - System.Runtime.InteropServices.dll
+Dependency assembly - System.Security.Claims.dll
+Dependency assembly - System.Design.dll
+Dependency assembly - System.Runtime.DurableInstancing.dll
+Dependency assembly - System.Numerics.Vectors.dll
+Dependency assembly - Unity.Mathematics.dll
+Dependency assembly - System.ComponentModel.TypeConverter.dll
+Dependency assembly - System.Security.Cryptography.Primitives.dll
+Dependency assembly - System.Net.Http.dll
+Dependency assembly - System.Security.dll
+Dependency assembly - System.ServiceModel.Http.dll
+Dependency assembly - System.Windows.dll
+Dependency assembly - System.ComponentModel.Primitives.dll
+Dependency assembly - System.Threading.Tasks.Parallel.dll
+Dependency assembly - System.IdentityModel.Selectors.dll
+Dependency assembly - System.Xml.XmlDocument.dll
+Dependency assembly - Unity.2D.Tilemap.Extras.dll
+Dependency assembly - System.Security.Cryptography.Pkcs.dll
+Dependency assembly - System.IO.FileSystem.DriveInfo.dll
+Dependency assembly - System.ServiceModel.dll
+Dependency assembly - System.Drawing.Design.dll
+Dependency assembly - System.Diagnostics.FileVersionInfo.dll
+Dependency assembly - System.Reflection.Emit.dll
+Dependency assembly - UnityEngine.UI.dll
+Dependency assembly - System.Windows.Forms.dll
+Dependency assembly - System.Reflection.Emit.Lightweight.dll
+Dependency assembly - System.Xml.Linq.dll
+Dependency assembly - Newtonsoft.Json.dll
+Dependency assembly - System.Security.Cryptography.DeriveBytes.dll
+Dependency assembly - System.Text.RegularExpressions.dll
+Dependency assembly - Unity.RenderPipelines.Core.ShaderLibrary.dll
+Dependency assembly - System.Web.dll
+Dependency assembly - System.IO.Compression.ZipFile.dll
+Dependency assembly - Unity.VisualScripting.Flow.dll
+Dependency assembly - System.Globalization.Extensions.dll
+Dependency assembly - System.dll
+Dependency assembly - System.Xml.Serialization.dll
+Dependency assembly - System.Globalization.dll
+Dependency assembly - System.ComponentModel.Annotations.dll
+Dependency assembly - System.Net.ServicePoint.dll
+Dependency assembly - System.Threading.ThreadPool.dll
+Dependency assembly - Unity.Timeline.dll
+Dependency assembly - System.Xml.XPath.XDocument.dll
+Dependency assembly - System.Net.Security.dll
+Dependency assembly - System.IO.FileSystem.dll
+Dependency assembly - System.ServiceProcess.ServiceController.dll
+Dependency assembly - System.Reflection.TypeExtensions.dll
+Dependency assembly - Unity.Profiling.Core.dll
+Dependency assembly - Unity.RenderPipelines.Universal.Shaders.dll
+Dependency assembly - System.Json.dll
+Dependency assembly - Mono.Security.dll
+Dependency assembly - Unity.2D.PixelPerfect.dll
+Dependency assembly - System.Data.Common.dll
+Dependency assembly - System.Security.Cryptography.RSA.dll
+Dependency assembly - System.Collections.dll
+Dependency assembly - System.Xml.XmlSerializer.dll
+Dependency assembly - Unity.RenderPipelines.Universal.Runtime.dll
+Dependency assembly - System.Data.OracleClient.dll
+Dependency assembly - Unity.VisualScripting.State.dll
+Dependency assembly - Unity.RenderPipelines.Universal.Config.Runtime.dll
+Dependency assembly - Unity.VisualScripting.Core.dll
+Dependency assembly - System.Net.AuthenticationManager.dll
+Dependency assembly - System.Security.Cryptography.Hashing.Algorithms.dll
+Dependency assembly - System.ComponentModel.EventBasedAsync.dll
+Dependency assembly - Unity.2D.IK.Runtime.dll
+
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc - - 200 - application/grpc 0.1927ms
+Starting: C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Data\bee_backend.exe --ipc --dagfile="Library/Bee/Player3612b428.dag" --profile="Library/Bee/backend1.traceevents" Player
+WorkingDir: C:/Users/raypo/Downloads/Compressed/CasualtiesUnknownV5.1Demo/CasualtiesUnknownDemo/RecoveredUnityProject
+DisplayProgressbar: Incremental Player Build
+[221/641    0s] CopyFiles Temp/EditorBuildOutput/UnityLinkerToEditorData.json
+[640/641    0s] CopyFiles Temp/EditorBuildOutput/MethodMap.tsv
+*** Tundra build success (0.13 seconds), 2 items updated, 641 evaluated
+ExitCode: 0 Duration: 0s153ms
+[websockify wrapper] Start node and websockify.js
+Refreshing native plugins compatible for Editor in 4.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+
+-------------------------------------------------------------------------------
+Build Report
+Information on used Assets is not available, since player data was not rebuilt.
+Do a clean build to view the Asset build report information.
+-------------------------------------------------------------------------------
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (34.6 KB). Loaded Objects now: 1192.
+Memory consumption went from 113.9 MB to 113.9 MB.
+Total: 1.896600 ms (FindLiveObjects: 0.062200 ms CreateObjectMapping: 0.008700 ms MarkObjects: 1.755400 ms  DeleteObjects: 0.069600 ms)
+
+DisplayProgressNotification: Build Successful
+Build Finished, Result: Success.
+Total cache size 872260
+Total cache size after purge 872260
+[websockify wrapper] Proxying from :54998 to localhost:34999
+[websockify wrapper] [ERROR] events.js:292
+[websockify wrapper] [ERROR]       throw er; // Unhandled 'error' event
+[websockify wrapper] [ERROR]       ^
+[websockify wrapper] [ERROR] Error: listen EADDRINUSE: address already in use :::54998
+[websockify wrapper] [ERROR]     at Server.setupListenHandle [as _listen2] (net.js:1313:16)
+[websockify wrapper] [ERROR]     at listenInCluster (net.js:1361:12)
+[websockify wrapper] [ERROR]     at Server.listen (net.js:1447:7)
+[websockify wrapper] [ERROR]     at new WebSocketServer (C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Data\PlaybackEngines\WebGLSupport\BuildTools\websockify\node_modules\ws\lib\websocket-server.js:97:20)
+[websockify wrapper] [ERROR]     at Object.<anonymous> (C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Data\PlaybackEngines\WebGLSupport\BuildTools\websockify\websockify.js:178:12)
+[websockify wrapper] [ERROR]     at Module._compile (internal/modules/cjs/loader.js:1138:30)
+[websockify wrapper] [ERROR]     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+[websockify wrapper] [ERROR]     at Module.load (internal/modules/cjs/loader.js:986:32)
+[websockify wrapper] [ERROR]     at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+[websockify wrapper] [ERROR]     at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+[websockify wrapper] [ERROR] Emitted 'error' event on WebSocketServer instance at:
+[websockify wrapper] [ERROR]     at Server.emit (events.js:315:20)
+[websockify wrapper] [ERROR]     at emitErrorNT (net.js:1340:8)
+[websockify wrapper] [ERROR]     at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+[websockify wrapper] [ERROR]   code: 'EADDRINUSE',
+[websockify wrapper] [ERROR]   errno: 'EADDRINUSE',
+[websockify wrapper] [ERROR]   syscall: 'listen',
+[websockify wrapper] [ERROR]   address: '::',
+[websockify wrapper] [ERROR]   port: 54998
+[websockify wrapper] [ERROR] }
+##utp:{"type":"PlayerBuildInfo","version":2,"phase":"Immediate","time":1794359654943,"processId":40280,"steps":[{"description":"Preprocess Player","duration":91},{"description":"Prepare For Build","duration":0},{"description":"ProducePlayerScriptAssemblies","duration":507},{"description":"Verify Build setup","duration":792},{"description":"Prepare assets for target platform","duration":26},{"description":"Prepare splash screen","duration":5},{"description":"Run script only build","duration":69},{"description":"Postprocess built player","duration":317}],"duration":1807}
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            0.895 ms
+	Integration:            6.448 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.010 ms
+	Total Operation Time:   7.355 ms
+Unloading 0 unused Assets / (0 B). Loaded Objects now: 1192.
+Memory consumption went from 109.2 MB to 109.2 MB.
+Total: 1.531300 ms (FindLiveObjects: 0.060700 ms CreateObjectMapping: 0.008600 ms MarkObjects: 1.459000 ms  DeleteObjects: 0.002500 ms)
+
+Recovered WebGL build succeeded: C:\Users\raypo\Downloads\Compressed\CasualtiesUnknownV5.1Demo\CasualtiesUnknownDemo\RecoveredUnityProject\Build\WebGL
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BuildRecoveredGame:BuildWebGL () (at Assets/Editor/BuildRecoveredGame.cs:34)
+
+(Filename: Assets/Editor/BuildRecoveredGame.cs Line: 34)
+
+Batchmode quit successfully invoked - shutting down!
+[websockify wrapper] OnUnload
+[websockify wrapper] Process exit code: 1
+Killing ADB server in 0.0329822 seconds.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-raypo-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-raypo channel disconnected successfully.
+Cleanup mono
+[websockify wrapper] OnUnload
+abort_threads: Failed aborting id: 00000000000094DC, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 000000000000A780, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 000000000000A780, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 00000000000094DC, mono_thread_manage will ignore it
+
+debugger-agent: Unable to listen on 5424
+[Performance] WinEditorMain                                                                                                  :        1 samples, Peak.   686 ms (1.0x), Avg.   686 ms, Total. 685.9 ms (8.4%)
+[Performance] WinEditorMain.ConfigureCrashHandler                                                                            :        1 samples, Peak.  22.7 us (1.0x), Avg.  22.7 us, Total. 22.70 us (0.0%)
+[Performance] WinEditorMain.CurlRequestInitialize                                                                            :        1 samples, Peak.   353 us (1.0x), Avg.   353 us, Total. 353.3 us (0.0%)
+[Performance] WinEditorMain.SetupLogFile                                                                                     :        1 samples, Peak.   340 us (1.0x), Avg.   340 us, Total. 339.7 us (0.0%)
+[Performance] WinEditorMain.RunNativeTestsIfRequiredAndExit                                                                  :        1 samples, Peak. 100.0 ns (1.0x), Avg. 100.0 ns, Total. 100.00 ns (0.0%)
+[Performance] WinEditorMain.Licensing                                                                                        :        1 samples, Peak.   663 ms (1.0x), Avg.   663 ms, Total. 662.8 ms (8.1%)
+[Performance] WinEditorMain.InitializeCrashHandler                                                                           :        1 samples, Peak.  19.8 ms (1.0x), Avg.  19.8 ms, Total. 19.84 ms (0.2%)
+[Performance] WinEditorMain.CreateApplication                                                                                :        1 samples, Peak.   118 us (1.0x), Avg.   118 us, Total. 118.3 us (0.0%)
+[Performance] Application.InitializeProject                                                                                  :        1 samples, Peak.  3.36 s (1.0x), Avg.  3.36 s, Total. 3.358 s (41.0%)
+[Performance] Application.PackageManager.StartServer                                                                         :        1 samples, Peak.  4.10 ms (1.0x), Avg.  4.10 ms, Total. 4.100 ms (0.1%)
+[Performance] Application.AcquireProjectLock                                                                                 :        1 samples, Peak.  7.63 ms (1.0x), Avg.  7.63 ms, Total. 7.627 ms (0.1%)
+[Performance] Application.InitializeEngineNoGraphics                                                                         :        1 samples, Peak.  43.8 ms (1.0x), Avg.  43.8 ms, Total. 43.76 ms (0.5%)
+[Performance] Application.PackageManager.Initialize                                                                          :        1 samples, Peak.   230 ms (1.0x), Avg.   230 ms, Total. 230.1 ms (2.8%)
+[Performance] Connecting to Package Manager                                                                                  :       24 samples, Peak.  63.4 us (15.8x), Avg.  4.01 us, Total. 96.20 us (0.0%)
+[Performance] Application.EngineGraphics.Initialize                                                                          :        1 samples, Peak.   196 ms (1.0x), Avg.   196 ms, Total. 195.9 ms (2.4%)
+[Performance] Application.GI.Initialize                                                                                      :        1 samples, Peak.  3.16 ms (1.0x), Avg.  3.16 ms, Total. 3.157 ms (0.0%)
+[Performance] Application.LoadAllDefaultResourcesFromEditor                                                                  :        1 samples, Peak.  1.16 ms (1.0x), Avg.  1.16 ms, Total. 1.161 ms (0.0%)
+[Performance] Application.LoadMonoAssemblies                                                                                 :        1 samples, Peak.   611 ms (1.0x), Avg.   611 ms, Total. 610.7 ms (7.5%)
+[Performance] RestoreManagedReferences                                                                                       :        2 samples, Peak.   110 ms (2.0x), Avg.  54.8 ms, Total. 109.5 ms (1.3%)
+[Performance] InitializeOnLoad DrivenRectTransformUndo                                                                       :        2 samples, Peak.   215 us (1.1x), Avg.   201 us, Total. 402.9 us (0.0%)
+[Performance] InitializeOnLoad SceneSearch                                                                                   :        2 samples, Peak.  70.8 us (1.1x), Avg.  61.6 us, Total. 123.3 us (0.0%)
+[Performance] InitializeOnLoad CloudBuild                                                                                    :        2 samples, Peak.  2.50 us (1.3x), Avg.  1.90 us, Total. 3.800 us (0.0%)
+[Performance] InitializeOnLoad NativeFormatImporterUtility                                                                   :        2 samples, Peak.  1.32 ms (1.2x), Avg.  1.13 ms, Total. 2.270 ms (0.0%)
+[Performance] InitializeOnLoad SearchService                                                                                 :        2 samples, Peak.  63.5 us (1.0x), Avg.  63.2 us, Total. 126.4 us (0.0%)
+[Performance] InitializeOnLoad SettingsService                                                                               :        2 samples, Peak.  6.30 us (1.3x), Avg.  4.75 us, Total. 9.500 us (0.0%)
+[Performance] InitializeOnLoad WindowLayout                                                                                  :        2 samples, Peak.   128 us (1.0x), Avg.   125 us, Total. 249.0 us (0.0%)
+[Performance] InitializeOnLoad AssetStoreContext                                                                             :        2 samples, Peak.  12.2 ms (1.7x), Avg.  7.16 ms, Total. 14.32 ms (0.2%)
+[Performance] InitializeOnLoad PoolManager                                                                                   :        2 samples, Peak.   316 us (1.0x), Avg.   311 us, Total. 621.4 us (0.0%)
+[Performance] InitializeOnLoad MixerEffectDefinitionReloader                                                                 :        2 samples, Peak.  2.07 ms (1.4x), Avg.  1.46 ms, Total. 2.923 ms (0.0%)
+[Performance] InitializeOnLoad ProjectSearch                                                                                 :        2 samples, Peak.  42.7 us (1.2x), Avg.  36.7 us, Total. 73.40 us (0.0%)
+[Performance] InitializeOnLoad UISystemProfilerRenderService                                                                 :        2 samples, Peak.  5.60 us (1.2x), Avg.  4.85 us, Total. 9.700 us (0.0%)
+[Performance] InitializeOnLoad EditMode                                                                                      :        2 samples, Peak.   222 us (1.1x), Avg.   202 us, Total. 403.4 us (0.0%)
+[Performance] InitializeOnLoad UnityConnect                                                                                  :        2 samples, Peak.  25.8 us (1.0x), Avg.  24.7 us, Total. 49.50 us (0.0%)
+[Performance] InitializeOnLoad ManagedDebugger                                                                               :        2 samples, Peak.   272 us (1.0x), Avg.   263 us, Total. 526.8 us (0.0%)
+[Performance] InitializeOnLoad ShortcutIntegration                                                                           :        2 samples, Peak.  25.3 us (1.0x), Avg.  25.3 us, Total. 50.60 us (0.0%)
+[Performance] InitializeOnLoad AddComponentWindow                                                                            :        2 samples, Peak.  55.0 us (1.1x), Avg.  51.0 us, Total. 101.9 us (0.0%)
+[Performance] InitializeOnLoad ManagedDebuggerWindow                                                                         :        2 samples, Peak.  60.6 us (1.0x), Avg.  58.6 us, Total. 117.3 us (0.0%)
+[Performance] InitializeOnLoad CacheServerWindow                                                                             :        2 samples, Peak.  4.80 us (1.3x), Avg.  3.70 us, Total. 7.400 us (0.0%)
+[Performance] InitializeOnLoad PlayModeDownload                                                                              :        2 samples, Peak.   930 us (1.9x), Avg.   492 us, Total. 984.4 us (0.0%)
+[Performance] InitializeOnLoad MenuItems                                                                                     :        2 samples, Peak.  54.1 us (1.2x), Avg.  45.5 us, Total. 91.10 us (0.0%)
+[Performance] InitializeOnLoad PrefabInstanceChangedListener                                                                 :        2 samples, Peak.  68.2 us (1.0x), Avg.  65.9 us, Total. 131.8 us (0.0%)
+[Performance] InitializeOnLoad ObjectSelectorSearch                                                                          :        2 samples, Peak.  19.6 us (1.1x), Avg.  17.2 us, Total. 34.40 us (0.0%)
+[Performance] InitializeOnLoad EditorMonitor                                                                                 :        2 samples, Peak.   367 us (1.3x), Avg.   294 us, Total. 587.4 us (0.0%)
+[Performance] InitializeOnLoad RetainedMode                                                                                  :        2 samples, Peak.  1.17 ms (1.0x), Avg.  1.13 ms, Total. 2.253 ms (0.0%)
+[Performance] InitializeOnLoad EditorShaderLoader                                                                            :        2 samples, Peak.   336 us (1.1x), Avg.   309 us, Total. 618.8 us (0.0%)
+[Performance] InitializeOnLoad EditorDelegateRegistration                                                                    :        2 samples, Peak.   265 us (1.2x), Avg.   228 us, Total. 455.8 us (0.0%)
+[Performance] InitializeOnLoad UIDocumentHierarchyWatcher                                                                    :        2 samples, Peak.   121 us (1.6x), Avg.  76.7 us, Total. 153.4 us (0.0%)
+[Performance] InitializeOnLoad LiveReloadTrackerCreator                                                                      :        2 samples, Peak.   134 us (1.4x), Avg.  99.0 us, Total. 198.0 us (0.0%)
+[Performance] InitializeOnLoad UxmlObjectEditorFactories                                                                     :        2 samples, Peak.   284 us (1.2x), Avg.   246 us, Total. 492.8 us (0.0%)
+[Performance] InitializeOnLoad UXMLEditorFactories                                                                           :        2 samples, Peak.  26.1 ms (1.0x), Avg.  25.1 ms, Total. 50.22 ms (0.6%)
+[Performance] InitializeOnLoad PurchasingService                                                                             :        2 samples, Peak.  4.11 ms (1.1x), Avg.  3.91 ms, Total. 7.824 ms (0.1%)
+[Performance] InitializeOnLoad CloudBuildPoller                                                                              :        2 samples, Peak.  58.2 us (1.1x), Avg.  55.3 us, Total. 110.6 us (0.0%)
+[Performance] InitializeOnLoad EditorGameServicesAnalytics                                                                   :        2 samples, Peak.   836 us (1.3x), Avg.   656 us, Total. 1.313 ms (0.0%)
+[Performance] InitializeOnLoad AnalyticsService                                                                              :        2 samples, Peak.  93.3 us (1.1x), Avg.  87.6 us, Total. 175.3 us (0.0%)
+[Performance] InitializeOnLoad BuildService                                                                                  :        2 samples, Peak.  58.3 us (1.0x), Avg.  57.5 us, Total. 115.1 us (0.0%)
+[Performance] InitializeOnLoad AdsService                                                                                    :        2 samples, Peak.   178 us (1.0x), Avg.   174 us, Total. 349.0 us (0.0%)
+[Performance] InitializeOnLoad UDPService                                                                                    :        2 samples, Peak.  62.1 us (1.0x), Avg.  60.5 us, Total. 121.0 us (0.0%)
+[Performance] InitializeOnLoad CrashService                                                                                  :        2 samples, Peak.  54.9 us (1.0x), Avg.  53.6 us, Total. 107.2 us (0.0%)
+[Performance] InitializeOnLoad ServicesRepository                                                                            :        2 samples, Peak.   100 ns (1.0x), Avg.   100 ns, Total. 200.0 ns (0.0%)
+[Performance] InitializeOnLoad SearchWindow                                                                                  :        2 samples, Peak.  70.9 us (1.1x), Avg.  63.8 us, Total. 127.5 us (0.0%)
+[Performance] InitializeOnLoad CustomIndexers                                                                                :        2 samples, Peak.  9.09 ms (1.1x), Avg.  8.27 ms, Total. 16.53 ms (0.2%)
+[Performance] InitializeOnLoad SearchMonitor                                                                                 :        2 samples, Peak.   556 us (1.1x), Avg.   490 us, Total. 980.9 us (0.0%)
+[Performance] InitializeOnLoad ParameterControllerEditor                                                                     :        2 samples, Peak.  14.4 us (1.0x), Avg.  14.3 us, Total. 28.60 us (0.0%)
+[Performance] InitializeOnLoad LayerSettingsWindow                                                                           :        2 samples, Peak.  17.2 us (1.7x), Avg.  9.90 us, Total. 19.80 us (0.0%)
+[Performance] InitializeOnLoad PackageManagerHookGUIDConverter.RegisterPackagesEventHandler                                  :        2 samples, Peak.   428 us (1.7x), Avg.   255 us, Total. 509.9 us (0.0%)
+[Performance] InitializeOnLoad EditorDragAndDrop.RegisterEditorClient                                                        :        2 samples, Peak.   119 us (1.1x), Avg.   110 us, Total. 220.1 us (0.0%)
+[Performance] InitializeOnLoad EditorEventCallbacks.InitializeFontAssetResourceChangeCallBacks                               :        2 samples, Peak.   592 us (1.0x), Avg.   585 us, Total. 1.169 ms (0.0%)
+[Performance] InitializeOnLoad SceneTemplateService.Init                                                                     :        2 samples, Peak.  1.59 ms (1.5x), Avg.  1.05 ms, Total. 2.106 ms (0.0%)
+[Performance] InitializeOnLoad DiagnosticSwitchesConsoleMessage.Init                                                         :        2 samples, Peak.  3.46 ms (1.7x), Avg.  2.05 ms, Total. 4.091 ms (0.0%)
+[Performance] InitializeOnLoad PackageManagerWindow.EditorInitializedInSafeMode                                              :        2 samples, Peak.  11.8 ms (2.0x), Avg.  5.97 ms, Total. 11.94 ms (0.1%)
+[Performance] InitializeOnLoad ToolShortcutContext.Init                                                                      :        2 samples, Peak.  65.4 us (1.0x), Avg.  63.9 us, Total. 127.8 us (0.0%)
+[Performance] InitializeOnLoad MemoryProfilerCompilationGuard.InjectCompileGuard                                             :        2 samples, Peak.   120 us (1.2x), Avg.  98.9 us, Total. 197.9 us (0.0%)
+[Performance] InitializeOnLoad AssetPostprocessingInternal.RefreshCustomDependencies                                         :        2 samples, Peak.  1.59 ms (1.3x), Avg.  1.21 ms, Total. 2.417 ms (0.0%)
+[Performance] InitializeOnLoad SysrootManager.Initialize                                                                     :        2 samples, Peak.  1000 us (2.0x), Avg.   503 us, Total. 1.006 ms (0.0%)
+[Performance] InitializeOnLoad ScopedRegistryAddedPopup.SubscribeToRegistriesAdded                                           :        2 samples, Peak.  3.96 ms (2.0x), Avg.  2.01 ms, Total. 4.014 ms (0.0%)
+[Performance] InitializeOnLoad SceneVisibilityManager.Initialize                                                             :        2 samples, Peak.  1.60 ms (1.6x), Avg.  1.02 ms, Total. 2.033 ms (0.0%)
+[Performance] InitializeOnLoad EditorWindow.Initialize                                                                       :        2 samples, Peak.   106 us (1.0x), Avg.   103 us, Total. 206.0 us (0.0%)
+[Performance] AssemblyReloadEvents.afterAssemblyReload: UnityEditor.SceneTemplate.SceneTemplateService.AfterAssemblyReload   :        2 samples, Peak.  2.33 ms (1.9x), Avg.  1.25 ms, Total. 2.510 ms (0.0%)
+[Performance] ProcessService.EditorAfterLoadAllAssemblies                                                                    :        2 samples, Peak.   220 us (1.2x), Avg.   178 us, Total. 356.8 us (0.0%)
+[Performance] Application.ReadLicenseInfo                                                                                    :        1 samples, Peak.  14.2 ms (1.0x), Avg.  14.2 ms, Total. 14.20 ms (0.2%)
+[Performance] Application.InitialRefresh                                                                                     :        1 samples, Peak.  1.51 s (1.0x), Avg.  1.51 s, Total. 1.511 s (18.4%)
+[Performance] ShaderImporter.SourceAssetModified                                                                             :        2 samples, Peak.   700 ns (1.2x), Avg.   600 ns, Total. 1.200 us (0.0%)
+[Performance] ShaderIncludeImporter.SourceAssetModified                                                                      :        2 samples, Peak.   800 ns (1.2x), Avg.   650 ns, Total. 1.300 us (0.0%)
+[Performance] Compiling Scripts                                                                                              :        1 samples, Peak.   541 ms (1.0x), Avg.   541 ms, Total. 541.0 ms (6.6%)
+[Performance] AssemblyReloadEvents.beforeAssemblyReload: UnityEditor.SceneTemplate.SceneTemplateService.BeforeAssemblyReload :        1 samples, Peak.   310 us (1.0x), Avg.   310 us, Total. 310.2 us (0.0%)
+[Performance] PresetManagerPostProcessor.OnPreprocessAsset                                                                   :        1 samples, Peak.   591 us (1.0x), Avg.   591 us, Total. 590.6 us (0.0%)
+[Performance] CancelSplashScreenOnAssetChange.OnPreprocessAsset                                                              :        1 samples, Peak.  74.5 us (1.0x), Avg.  74.5 us, Total. 74.50 us (0.0%)
+[Performance] InitializeOnLoad SysrootPackage.IssueWarningIfLinuxIL2CPPNotPresent                                            :        1 samples, Peak.  56.7 us (1.0x), Avg.  56.7 us, Total. 56.70 us (0.0%)
+[Performance] DidReloadScriptsAdvancedDropdownWindow.OnScriptReload                                                          :        1 samples, Peak.   132 us (1.0x), Avg.   132 us, Total. 131.7 us (0.0%)
+[Performance] AssetDatabase.ImportAssets                                                                                     :        5 samples, Peak.  1.90 us (2.5x), Avg.   760 ns, Total. 3.800 us (0.0%)
+[Performance] VersionControl.Task.Wait                                                                                       :        1 samples, Peak.  11.1 us (1.0x), Avg.  11.1 us, Total. 11.10 us (0.0%)
+[Performance] AudioMixerPostprocessor.OnPostprocessAllAssets                                                                 :        4 samples, Peak.   617 us (1.7x), Avg.   373 us, Total. 1.493 ms (0.0%)
+[Performance] BuilderAssetPostprocessor.OnPostprocessAllAssets                                                               :        2 samples, Peak.  1.24 ms (1.0x), Avg.  1.24 ms, Total. 2.479 ms (0.0%)
+[Performance] ArtifactBrowserPostProcessor.OnPostprocessAllAssets                                                            :        2 samples, Peak.   425 us (1.1x), Avg.   401 us, Total. 802.1 us (0.0%)
+[Performance] AssetEvents.OnPostprocessAllAssets                                                                             :        4 samples, Peak.  96.9 us (1.5x), Avg.  64.7 us, Total. 258.8 us (0.0%)
+[Performance] StyleCatalogPostProcessor.OnPostprocessAllAssets                                                               :        2 samples, Peak.  8.86 ms (1.0x), Avg.  8.86 ms, Total. 17.72 ms (0.2%)
+[Performance] BuildCatalog                                                                                                   :        1 samples, Peak.  8.26 ms (1.0x), Avg.  8.26 ms, Total. 8.256 ms (0.1%)
+[Performance] ModelImporterPostProcessor.OnPostprocessAllAssets                                                              :        2 samples, Peak.   597 us (1.0x), Avg.   596 us, Total. 1.192 ms (0.0%)
+[Performance] RetainedModeAssetPostprocessor.OnPostprocessAllAssets                                                          :        2 samples, Peak.  1.41 ms (1.0x), Avg.  1.41 ms, Total. 2.814 ms (0.0%)
+[Performance] AssetChangedListener.OnPostprocessAllAssets                                                                    :        2 samples, Peak.  1.06 ms (1.0x), Avg.  1.05 ms, Total. 2.109 ms (0.0%)
+[Performance] SpeedTreePostProcessor.OnPostprocessAllAssets                                                                  :        2 samples, Peak.   196 us (1.0x), Avg.   195 us, Total. 390.9 us (0.0%)
+[Performance] TextAssetPostProcessor.OnPostprocessAllAssets                                                                  :        2 samples, Peak.   310 us (1.0x), Avg.   309 us, Total. 618.1 us (0.0%)
+[Performance] SyncVS.PostprocessSyncProject                                                                                  :        1 samples, Peak.   987 us (1.0x), Avg.   987 us, Total. 987.4 us (0.0%)
+[Performance] Application.ImportPackagesAndSetTemplateWhenCreatingProject                                                    :        1 samples, Peak.  66.1 ms (1.0x), Avg.  66.1 ms, Total. 66.09 ms (0.8%)
+[Performance] Application.SyncCurrentColorSpace                                                                              :        1 samples, Peak.   103 ms (1.0x), Avg.   103 ms, Total. 103.1 ms (1.3%)
+[Performance] Application.OnUsbDevicesChanged                                                                                :        1 samples, Peak.  74.1 ms (1.0x), Avg.  74.1 ms, Total. 74.07 ms (0.9%)
+[Performance] Application.AssetInstanceCacheUpdate                                                                           :        1 samples, Peak.   400 ns (1.0x), Avg.   400 ns, Total. 400.0 ns (0.0%)
+[Performance] Application.UnityExtensions.Initialize                                                                         :        1 samples, Peak.   663 us (1.0x), Avg.   663 us, Total. 663.4 us (0.0%)
+[Performance] CodeEditorProjectSync.SyncEditorProject                                                                        :        1 samples, Peak.  80.6 us (1.0x), Avg.  80.6 us, Total. 80.60 us (0.0%)
+[Performance] Application.ExecuteStartups                                                                                    :        1 samples, Peak.  69.8 ms (1.0x), Avg.  69.8 ms, Total. 69.75 ms (0.9%)
+[Performance] Menu.RegisterMenuInterface                                                                                     :       26 samples, Peak.   800 ns (4.8x), Avg.   165 ns, Total. 4.300 us (0.0%)
+[Performance] Gizmo.RebuildRenderers                                                                                         :        2 samples, Peak.  66.5 ms (1.5x), Avg.  43.5 ms, Total. 86.94 ms (1.1%)
+[Performance] Gizmo.AddGizmoRenderers                                                                                        :      132 samples, Peak.  1.22 ms (85.1x), Avg.  14.3 us, Total. 1.887 ms (0.0%)
+[Performance] Application.editorInitializingProject                                                                          :        1 samples, Peak.  98.2 ms (1.0x), Avg.  98.2 ms, Total. 98.25 ms (1.2%)
+[Performance] Application.InitializeMenu                                                                                     :        1 samples, Peak.  1.65 s (1.0x), Avg.  1.65 s, Total. 1.653 s (20.2%)
+[Performance] Menu.RebuildAll                                                                                                :        1 samples, Peak.  1.65 s (1.0x), Avg.  1.65 s, Total. 1.653 s (20.2%)
+[Performance] Menu.BuildRegisteredMenuInterfaces                                                                             :        1 samples, Peak.  1.65 s (1.0x), Avg.  1.65 s, Total. 1.650 s (20.1%)
+[Performance] Menu.FilterMenuItem                                                                                            :      702 samples, Peak.  13.2 ms (695.2x), Avg.  19.0 us, Total. 13.35 ms (0.2%)
+[Performance] UpdateAllMenus                                                                                                 :        1 samples, Peak.   686 us (1.0x), Avg.   686 us, Total. 685.7 us (0.0%)
+[Performance] Menu.RebuildOSMainMenu                                                                                         :        3 samples, Peak.  2.10 ms (1.4x), Avg.  1.48 ms, Total. 4.428 ms (0.1%)
+[Performance] EditorSceneManager.sceneClosing: UnityEditor.SceneVisibilityManager.EditorSceneManagerOnSceneClosing           :        2 samples, Peak.   415 us (2.0x), Avg.   211 us, Total. 422.9 us (0.0%)
+[Performance] GUIView.RepaintAll.PlayerLoopController                                                                        :        2 samples, Peak.   215 us (2.0x), Avg.   108 us, Total. 216.5 us (0.0%)
+[Performance] EditorSceneManager.newSceneCreated: UnityEditor.SceneTemplate.SceneTemplateService.OnNewSceneCreated           :        1 samples, Peak.   173 us (1.0x), Avg.   173 us, Total. 172.5 us (0.0%)
+[Performance] EditorSceneManager.newSceneCreated: UnityEditor.SceneVisibilityManager.EditorSceneManagerOnNewSceneCreated     :        1 samples, Peak.   494 us (1.0x), Avg.   494 us, Total. 494.4 us (0.0%)
+[Performance] EditorSceneManager.newSceneCreated: UnityEditor.SceneManagement.StageNavigationManager.OnNewSceneCreated       :        1 samples, Peak.  69.9 us (1.0x), Avg.  69.9 us, Total. 69.90 us (0.0%)
+[Performance] Application.InvokeFinishedLoadingProject                                                                       :        1 samples, Peak.  4.73 ms (1.0x), Avg.  4.73 ms, Total. 4.735 ms (0.1%)
+[Performance] ProcessService.OnProjectLoaded                                                                                 :        1 samples, Peak.  32.0 us (1.0x), Avg.  32.0 us, Total. 32.00 us (0.0%)
+[Performance] Inspector.InitOrRebuild                                                                                        :        2 samples, Peak.   316 us (1.5x), Avg.   209 us, Total. 417.5 us (0.0%)
+[Performance] BuilderAssetModificationProcessor.OnWillSaveAssets                                                             :        2 samples, Peak.   273 us (2.0x), Avg.   140 us, Total. 279.7 us (0.0%)
+[Performance] TerrainModificationProcessor.OnWillSaveAssets                                                                  :        2 samples, Peak.   444 us (2.0x), Avg.   222 us, Total. 444.7 us (0.0%)
+[Performance] GenerateAssemblyTypeInfos                                                                                      :        2 samples, Peak.  17.9 ms (1.1x), Avg.  17.0 ms, Total. 33.99 ms (0.4%)
+[Performance] AssetDatabase.Refresh                                                                                          :        1 samples, Peak.  6.76 ms (1.0x), Avg.  6.76 ms, Total. 6.757 ms (0.1%)
+[Performance] EditorApplication.quitting: callback in UnityEditor.TextCore.Text.EditorEventCallbacks                         :        1 samples, Peak.  38.9 ms (1.0x), Avg.  38.9 ms, Total. 38.92 ms (0.5%)
+[Performance] EditorApplication.quitting: UnityEditor.WebGL.WebsockifyEditorWrapper.Kill                                     :        1 samples, Peak.   459 us (1.0x), Avg.   459 us, Total. 458.6 us (0.0%)
+[Performance] Killing ADB server                                                                                             :        1 samples, Peak.  33.1 ms (1.0x), Avg.  33.1 ms, Total. 33.10 ms (0.4%)
+[Performance] Application.Shutdown.PauseProfilerSession                                                                      :        1 samples, Peak.   869 us (1.0x), Avg.   869 us, Total. 868.6 us (0.0%)
+[Performance] Application.Shutdown.PauseAssetImportWorkers                                                                   :        1 samples, Peak.  95.1 us (1.0x), Avg.  95.1 us, Total. 95.10 us (0.0%)
+[Performance] Application.Shutdown.SaveAssets                                                                                :        1 samples, Peak.  2.21 ms (1.0x), Avg.  2.21 ms, Total. 2.210 ms (0.0%)
+[Performance] Application.Shutdown.CleanupRenderPipeline                                                                     :        1 samples, Peak.  3.90 us (1.0x), Avg.  3.90 us, Total. 3.900 us (0.0%)
+[Performance] Application.Shutdown.StopPreloadManager                                                                        :        1 samples, Peak.  9.99 ms (1.0x), Avg.  9.99 ms, Total. 9.991 ms (0.1%)
+[Performance] Application.Shutdown.DestroyWorld                                                                              :        1 samples, Peak.   387 us (1.0x), Avg.   387 us, Total. 386.6 us (0.0%)
+[Performance] Application.Shutdown.CleanupAfterLoad                                                                          :        1 samples, Peak.  1.96 ms (1.0x), Avg.  1.96 ms, Total. 1.956 ms (0.0%)
+[Performance] Application.Shutdown.Progress                                                                                  :        1 samples, Peak.   341 us (1.0x), Avg.   341 us, Total. 341.1 us (0.0%)
+[Performance] Application.Shutdown.GICleanupManagers                                                                         :        1 samples, Peak.  8.31 ms (1.0x), Avg.  8.31 ms, Total. 8.309 ms (0.1%)
+[Performance] Application.Shutdown.MenuCleanupClass                                                                          :        1 samples, Peak.   139 us (1.0x), Avg.   139 us, Total. 138.6 us (0.0%)
+[Performance] Application.Shutdown.ADBSaveStateBeforeShutdown                                                                :        1 samples, Peak.  6.80 us (1.0x), Avg.  6.80 us, Total. 6.800 us (0.0%)
+[Performance] Application.Shutdown.RemoteShutdown                                                                            :        1 samples, Peak.   700 ns (1.0x), Avg.   700 ns, Total. 700.0 ns (0.0%)
+[Performance] Application.Shutdown.CleanupVCProvider                                                                         :        1 samples, Peak.   199 us (1.0x), Avg.   199 us, Total. 198.8 us (0.0%)
+[Performance] Application.Shutdown.InputShutdown                                                                             :        1 samples, Peak.   325 us (1.0x), Avg.   325 us, Total. 324.9 us (0.0%)
+[Performance] Application.Shutdown.GizmoManagerDestroy                                                                       :        1 samples, Peak.   600 us (1.0x), Avg.   600 us, Total. 599.7 us (0.0%)
+[Performance] Application.Shutdown.ProfilerSession                                                                           :        1 samples, Peak.   656 us (1.0x), Avg.   656 us, Total. 656.5 us (0.0%)
+[Performance] Application.Shutdown.ReleaseGfxWindowOnAllGUIViews                                                             :        1 samples, Peak.   200 ns (1.0x), Avg.   200 ns, Total. 200.0 ns (0.0%)
+[Performance] Application.Shutdown.CleanupEngine                                                                             :        1 samples, Peak.   146 ms (1.0x), Avg.   146 ms, Total. 146.3 ms (1.8%)
+[Performance] Application.Shutdown.CleanupAssetDatabase                                                                      :        1 samples, Peak.  17.5 ms (1.0x), Avg.  17.5 ms, Total. 17.45 ms (0.2%)
+[Performance] Application.Shutdown.ScriptCompilationCleanUp                                                                  :        1 samples, Peak.  14.9 ms (1.0x), Avg.  14.9 ms, Total. 14.91 ms (0.2%)
+[Performance] Application.Shutdown.DestroyJobSystem                                                                          :        1 samples, Peak.  94.7 us (1.0x), Avg.  94.7 us, Total. 94.70 us (0.0%)
+[Performance] Application.Shutdown.CleanupPersistentManager                                                                  :        1 samples, Peak.   341 us (1.0x), Avg.   341 us, Total. 340.8 us (0.0%)
+[Performance] Application.Shutdown.CleanupAsyncReadManager                                                                   :        1 samples, Peak.   479 us (1.0x), Avg.   479 us, Total. 478.7 us (0.0%)
+[Performance] Application.Shutdown.CleanupProgressBar                                                                        :        1 samples, Peak.  1.30 us (1.0x), Avg.  1.30 us, Total. 1.300 us (0.0%)
+[Performance] Application.Shutdown.CleanupMono                                                                               :        1 samples, Peak.  41.0 ms (1.0x), Avg.  41.0 ms, Total. 40.96 ms (0.5%)
+[Performance] Application.Shutdown.CleanupStdConverters                                                                      :        1 samples, Peak.  13.0 us (1.0x), Avg.  13.0 us, Total. 13.00 us (0.0%)
+[Performance] Application.Shutdown.UnloadAllPlatformSupportModuleNativeDlls                                                  :        1 samples, Peak.   900 ns (1.0x), Avg.   900 ns, Total. 900.0 ns (0.0%)
+[Performance] Application.Shutdown.UnloadAllPlatformSupportNativeLibraries                                                   :        1 samples, Peak. 100.0 ns (1.0x), Avg. 100.0 ns, Total. 100.00 ns (0.0%)
+[Performance] Application.Shutdown.CleanupAutoDocumentation                                                                  :        1 samples, Peak.   604 us (1.0x), Avg.   604 us, Total. 603.8 us (0.0%)
+[Performance] Application.Shutdown.ShaderNameManagerDestroy                                                                  :        1 samples, Peak.  55.1 us (1.0x), Avg.  55.1 us, Total. 55.10 us (0.0%)
+[Performance] Application.Shutdown.CleanupCacheServer                                                                        :        1 samples, Peak.   200 ns (1.0x), Avg.   200 ns, Total. 200.0 ns (0.0%)
+[Performance] Application.Shutdown.Virtualization_Shutdown                                                                   :        1 samples, Peak.   300 ns (1.0x), Avg.   300 ns, Total. 300.0 ns (0.0%)
+[Performance] Application.Shutdown.DevConnections                                                                            :        1 samples, Peak.   162 us (1.0x), Avg.   162 us, Total. 161.8 us (0.0%)
+Exiting batchmode successfully now!
+Exiting without the bug reporter. Application will terminate with return code 0
